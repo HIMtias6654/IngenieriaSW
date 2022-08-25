@@ -93,3 +93,6 @@ scoping: esta variable vive en este lugar
 *sber los 3 criterios para evaluar el diseño: correcion, eficiencia, simplicidad **memorizar** que es ? que se supone que hace ?*
 **los principios fundamentales**
 **metdodo atam -> Tomara los 5 pasos los nombres y que hacen**
+
+# Nada que ver pagina para encontrar libros
+!(https://es.z-lib.org/)
