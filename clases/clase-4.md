@@ -32,9 +32,9 @@ Y ver coonseciones: pierdo propiedades pero obtengo algo mas
 + vistas del sistema que seran evaluadas, disitntas vistas necesario para distintos analisis osea algunas vistas seran mejor para cierto escenarios
 + a la larga yo quiero elegir una de esas arquitecturas
 
-performance
-scablity
-availability
+performance -> desempeño
+scablity -> escabilidad
+availability -> accesibilidad o entendibilidad
 
 # metodo CBAM
 
@@ -90,4 +90,6 @@ no podemos hacer un ejemplo de pipe and filter de la filmina en el parcial
 organizacion del documento **NO va al parcial**
 ATAM saberlo
 scoping: esta variable vive en este lugar
-sber los 3 criterios para evaluar el diseño: correcion, eficiencia, simplicidad **memorizar** que es ? que se supone que hace ?
+*sber los 3 criterios para evaluar el diseño: correcion, eficiencia, simplicidad **memorizar** que es ? que se supone que hace ?*
+**los principios fundamentales**
+**metdodo atam -> Tomara los 5 pasos los nombres y que hacen**
