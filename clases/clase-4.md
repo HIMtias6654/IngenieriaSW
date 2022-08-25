@@ -82,6 +82,44 @@ principios fundamentales(son 3, **saberlas**)
 + Estrategias
    - top-down -> cuando no tengo nada, en cada paso tenemos una claridad de lo  que hacemos. problema: suponemos que hacemos un modulo que al final no podemos hacer. primer parte refinamiento paso a paso, despues los pros y los contras
    - si ya tengo algo parto de ahi, en empresas grandes
+
+# Acoplamiento
+   division entre modulos
+   pocos
+   imposible el nulo acoplamiento
+   buscamcos dependencia infima
+   hay metricas para medir cuanto depende uno de otro
+   nos interesa que tipo de conexion tenemos
+   complejidad de interfaces simple -> vemos la cantidad de parametros
+   fuerza de conexion entre los modulos
+   maneras de definir los acoplamientos
+   **variables compartidas -> feas**
+   balance una interfaz un poco sucio pero muy facil
+   hibrido es FEO
+   
+# Cohesion
+  alta
+  es interno al modulo
+  Tipos de cohesio, orientado a funcion son 7 . **parcial va: cuales son y cual es su orden**
+  - casual -> hecho asi no mas
+  - logica -> tiene algo de coherencia, no es optima
+  - temporal -> los elementos estan realionados en el tiempo osea se ejecutan juntos
+  - procedular ->
+  - comunicacional -> todos se comunican con algun dato
+  - secuencial
+  - funcional -> todos los elementos estan relacionados para realizar un unica funcion
+  hay un test en las filminas para detectar algunas de las 7 -> **no se toma en el parcial**
+  
+# Notacion y especificacion del diseño
+
+Diagrama de estructura
++ notacion grafica, modulos e interaccion entre ellos
++ cada flecha se etiqueta
++ se puede hacer una correlacion entre codigo y diagrama de estructura
++ metodologia de diseño estructurado nos da pautas para hacer un diagrama de estructura
+  
+ > alta cohesion y bajo acoplamiento se busca
+
 # Laura dice
 
 nos centramos en Componentes y conectores
@@ -93,6 +131,10 @@ scoping: esta variable vive en este lugar
 *sber los 3 criterios para evaluar el diseño: correcion, eficiencia, simplicidad **memorizar** que es ? que se supone que hace ?*
 **los principios fundamentales**
 **metdodo atam -> Tomara los 5 pasos los nombres y que hacen**
+interfaz oscura: que no quede claro cual es el dato que se va ha usar
++ funcion que toma datos
++ funcion que toma control -> tienes una flag o if que indica que es lo que tengo que hacer dentro de la funcion => mejor dividir en pequeñas funciones
+**siempre se toma acoplamiento o cohesion**
 
 # Nada que ver pagina para encontrar libros
 !(https://es.z-lib.org/)
