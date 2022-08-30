@@ -1,1 +1,20 @@
 
+Saber de framework y testear.
+Lo importanto de un equipo de desarrollo es que sea previsible.
+Participar en comunidades. Se conocen en fiestas.
++ riables con nombre significativo 
++ No tener codigo repetido 
++ Identacion(Mas de 4 o mas tabuladores de identacion difculta la legibilidad => Mala Programacion
++ Las funciones no mas de 20 lineas de codigo
+
+
+A partir de las clases podes formar una BD.
+..
+
+(https://editor.ponyorm.com/)
+
+Puedo crear los dibujos y luego obtener el codigo
+
+git clone https://github.com/matiaslee/pony_orm_2022.git
+
+como estoy en el entorno virtual ya podemos usar python en vez de python3 pues estamos en el entorno
