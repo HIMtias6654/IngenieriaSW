@@ -33,13 +33,17 @@ Y ver coonseciones: pierdo propiedades pero obtengo algo mas
 + a la larga yo quiero elegir una de esas arquitecturas
 
 performance -> desempeño
+
 scablity -> escabilidad
+
 availability -> accesibilidad o entendibilidad
 
 # metodo CBAM
 
 cost of performance(desempeño ?)
+
 cost of scablity
+
 cost of availability(disponibilidad ?)
 
 > lo importante es poder elegir cualquier opcion
@@ -84,23 +88,37 @@ principios fundamentales(son 3, **saberlas**)
    - si ya tengo algo parto de ahi, en empresas grandes
 
 # Acoplamiento
-   division entre modulos
-   pocos
-   imposible el nulo acoplamiento
-   buscamcos dependencia infima
-   hay metricas para medir cuanto depende uno de otro
-   nos interesa que tipo de conexion tenemos
-   complejidad de interfaces simple -> vemos la cantidad de parametros
-   fuerza de conexion entre los modulos
-   maneras de definir los acoplamientos
+
+division entre modulos
+
+pocos
+
+imposible el nulo acoplamiento
+
+buscamcos dependencia infima
+
+hay metricas para medir cuanto depende uno de otro
+
+nos interesa que tipo de conexion tenemos
+
+complejidad de interfaces simple -> vemos la cantidad de parametros
+
+fuerza de conexion entre los modulos
+
+maneras de definir los acoplamientos
    **variables compartidas -> feas**
-   balance una interfaz un poco sucio pero muy facil
-   hibrido es FEO
+
+balance una interfaz un poco sucio pero muy facil
+
+hibrido es FEO
    
 # Cohesion
-  alta
-  es interno al modulo
-  Tipos de cohesio, orientado a funcion son 7 . **parcial va: cuales son y cual es su orden**
+
+alta
+
+es interno al modulo
+
+Tipos de cohesio, orientado a funcion son 7 . **parcial va: cuales son y cual es su orden**
   - casual -> hecho asi no mas
   - logica -> tiene algo de coherencia, no es optima
   - temporal -> los elementos estan realionados en el tiempo osea se ejecutan juntos
@@ -113,6 +131,7 @@ principios fundamentales(son 3, **saberlas**)
 # Notacion y especificacion del diseño
 
 Diagrama de estructura
+
 + notacion grafica, modulos e interaccion entre ellos
 + cada flecha se etiqueta
 + se puede hacer una correlacion entre codigo y diagrama de estructura
@@ -123,15 +142,25 @@ Diagrama de estructura
 # Laura dice
 
 nos centramos en Componentes y conectores
+
 definicion de tubos y filtros de la filmina dice que es eso va
+
 no podemos hacer un ejemplo de pipe and filter de la filmina en el parcial
+
 organizacion del documento **NO va al parcial**
+
 ATAM saberlo
+
 scoping: esta variable vive en este lugar
+
 *sber los 3 criterios para evaluar el diseño: correcion, eficiencia, simplicidad **memorizar** que es ? que se supone que hace ?*
+
 **los principios fundamentales**
+
 **metdodo atam -> Tomara los 5 pasos los nombres y que hacen**
+
 interfaz oscura: que no quede claro cual es el dato que se va ha usar
+
 + funcion que toma datos
 + funcion que toma control -> tienes una flag o if que indica que es lo que tengo que hacer dentro de la funcion => mejor dividir en pequeñas funciones
 **siempre se toma acoplamiento o cohesion**
