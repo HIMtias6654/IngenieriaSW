@@ -112,17 +112,24 @@ Conjunto de funciones que se abstraen de la implementacion
 # Laura quiere
 
 Analisis Estructurado -> Dar sus 3 pasos en el parcial
+
 Caracteristicas de la SRS -> saberselas de memoria
+
 Slide del Alcance -> Usarlo para el TakeHome
+
 Siempre saber describir un caso de uso
 casos de uso con subobjetivos NO son Usuales NO los piden
+
 Si se puede usar el etc pero cuanto mas exhaustivo sea mejor
 lenguaje formal. no vemos
+
 Se toma si o si metrica de punto funcion
 Saber componentes y conectores
 
 # Glosario
 
 oraculo: es quien sabe la respuesta correcta
+
 buffering: procuparse por el orden que llegan las cosas
+
 pasivo: no nos avisa
