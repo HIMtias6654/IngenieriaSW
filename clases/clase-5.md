@@ -52,17 +52,31 @@
  
 # Metodoslogia de diseño
  Similar a las funiones.
+ 
  Metodologia OMT
+ 
  **Estudiar los titulos de los 5 pasos y que son, siempre va al parcial**
+ 
  1.
+ 
  2.Producir el modelo dinamico -> Veo lo que despues serian clases. Tiene una relacion de esto sucede y lo hace en el tiempo. Una vez modela en los escenarios. Los podemos sacar de los Caaos de Uso de la SRS.
+ 
  3.
+ 
  4. ... .Sumo lo que obtuve los 3 modelos que obtuve antes.
+ 
  5. Optimizar y empaquetar. Lo mas dificil es ajustar herencia teniendo en cuanta abierto-cerrado.
+ 
  Los metodos no los pedimos en la clase pero si saberlas.
+ 
  ### Metricas
+ 
  WMC metodos pesados por clases. Ponerle para cada metodo una complejidad. Sumamos. Mientras mas grande la clase mas propensa a tener errores.
+ 
  DIT Profundidad del arbol de herencia. Mientras mas profundo la herencia mas propensa a errores.
+ 
  NOC cantidad de hijos. Si muchos me usan la clase debe estar bien hecha.
+ 
  CBC aoplamiento entre clase. Siempre hay alguna de estas.
+ 
  RFC respuesta para una clase. 
