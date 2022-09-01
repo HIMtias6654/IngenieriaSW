@@ -65,4 +65,6 @@ import Counter from 'ruta donde esta la componente Counter'
 En el return siempre debe esta contenido con algun tag como un div
 En onClick = (() => funcion()) debe usarse asi o entras a un loop infinito si haces: onClick = (funcion())
 
-React para desarrollar 
+React para desarrollar
+
+No vemos fetch o axios dependera de nosotros que libreria usamos
