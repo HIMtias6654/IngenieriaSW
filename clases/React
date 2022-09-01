@@ -1,1 +1,68 @@
+JS ES7 -> estandar que usaremos, puede que alguno navegadores no lo soportan , compilacion intermedia(transpilacion)
+JS ES6 -> sintax suggar es class y extends pero en realidad
+No existe el concepto de clase y ni de herencia
 
+JS + CSS + HTML -> Forman el DOM
+
+> **No programar con clases en React** Entonces existen las clases en React pero no las usamos o directamente NO EXISTEN
+> Programar con funciones
+
++ Entre llaves podemos escribir codigo JS
+
+Como vamos a estructurar:
+
++ UI -> HTML + CSS pero usando alguna libreria no CSS puro pues el problema esta en la sobre-escritura
++ BL -> JS
+
+src/component -> UI -> return HTML -> lo que vera 
+src/container -> BL -> Llama mediante props lo de component ,aca se hace la logica -> No sabe nada de como se muestra al usuario
+
+Manejo de estado -> Podemos usar contex en vez de Redux
+
+Libreria para escribir componentes UI
+No llega a ser un Framework Web
+
+state -> datos EN UN MOMENTO DE LA EJECUCION
+props -> como se comunican
+
+> El estado de la App solo debe estar solo en un lugar. Como en Redux que usa un Store
+> Que es estado general a nivel de la APP o sea que todos tengan acceso a ella y estado que solo viva en el Componente que fue creado o en algunas de sus hijas
+
+Por Ejemplo el token deberia estar en el estado de App pues llamado por varias componentes
+
+# Antes
++ Componentes sin estado -> sino tiene estado tiene que ser una funcione
++ Componentes con estado -> tendrian que ser clases
+
+# Ahora
+
+Puedo usar una variable como estado intermedio -> useState:= [varible del estado, el nombre del metodo que uso para actualizar el estado]
+
+Counter es el componente y la variable count vive entre las llaves del componente pero hay formas de pasar la variable a otras componentes
+setCount es el metodo en la cual se actualizar la variable count
+
+
+initValue es nuestra props
+```
+const Counter = ({initValue}) => {
+  const [count, setCount] = React.useState(initValue):
+  const add = () => {
+    ...
+    setCount(NewCount)
+  }
+}
+```
+
+Manera de usarse valores en otra componente 
+
+```
+import Counter from 'ruta donde esta la componente Counter'
+<Counter
+  initValue={7}
+/>
+```
+
+En el return siempre debe esta contenido con algun tag como un div
+En onClick = (() => funcion()) debe usarse asi o entras a un loop infinito si haces: onClick = (funcion())
+
+React para desarrollar 
