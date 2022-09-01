@@ -165,6 +165,8 @@ Semana que viene traer todas las dudas y tambien se presenta el TH
 
 Hasta lo de hoy va al parcial -> En la filminas figura como clase 5
 
+> la refactorizacion NO se debe sacar Ni poner. Eje. Un monitor se refactoriza todo lo que ya hacia el monitor no cambio en nada, si se cambio eso no es refactorizacion o se refactoriza mal
+
 **Acoplamiento se toma todos los parciales**
 
 # Glosario
