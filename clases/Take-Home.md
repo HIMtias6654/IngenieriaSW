@@ -51,3 +51,7 @@ una clase base en python
 el robot no va ha cambiar esteticamente
 
 > No enviar una foto del DFD o Diagrama de Clase. Usar Dio o Pony ORM
+
+Una sola simulacion la ves en un tablero en tiempo real. Entre tus propios robots.
+El bot aparece random.
+Cada uno sube su bots para verlos como se mueven en el tablero en la simulacion
