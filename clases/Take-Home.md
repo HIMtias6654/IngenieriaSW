@@ -54,4 +54,34 @@ el robot no va ha cambiar esteticamente
 
 Una sola simulacion la ves en un tablero en tiempo real. Entre tus propios robots.
 El bot aparece random.
-Cada uno sube su bots para verlos como se mueven en el tablero en la simulacion
+Cada uno sube su bots para verlos como se mueven en el tablero en la simulacion.
+
+Primero el alcanze
+luego los casos de uso
+
+2 parrafos del alcanze
+
+mail -> unico
+nombre
+contraseña 8 caracteres mayusculaas minusculas guias
+avatar
+
+verificacion de la cuenta
+username unico
+pass
+avatar opcional
+
+crear partida si elejis el minimo 2 y maximo jugadores 4
+
+limite total de rondas < 10000
+
+usuario ver todas las partidas
+
+como sabe el usuario que inicio la partida -> el usuario quien creo la partida puede iniciar la partida
+un usario puede subir todos los bots que quiera pero para jugar elijo uno
+maximo de bots en una simulacion 4
+
+cantidad de simulacion la elije el que creo la partida
+
+por robot podes ver su estado , creo 
+
