@@ -1,1 +1,64 @@
 
+# Metodologia Agiles
+
+2 meses de SCRUM
+
+Sobrevivir al Mundo del SW en donde todo cambia muy rapido
+
+Los Requerimientos evolucionan a traves del tiempo
+
+Desarrollo incremental -> Iteracion pequeñas sobre lo que se va construyendo
+
+Objetivo: Incrementar el valor del proyecto -> agregamos nuevos feacture sobre el codigo base elegido
+
++ Basado en el empirismo, o sea, paritr de lo que sabemos y de lo que hicimos bien
+
+1. Trasnperencia -> Proceso mas organico => No hay jerarquia. Todo el equipo esta al tanto de xq estamos haceindo esto ? Requiere buena comunicacion
+2. Inspeccion -> Veo que esta bien y que esta mal. Si no se alcanza los objetivos => algo hay que cambiar
+3. Actores -> Product Owner + Development Team + SCRUM master
+
+PO: Dueño del producto. Persona responsable de maximizar el producto. Define las propiedades. Representa al clientes externos. Conoce y entiende el negocio.
+    Responsable de mantener el Product Backlog. No necesariamente sabe de programacion.
+    El que escribe los tickets(los requerimientos) puede delegar que lo haga algun desarrollador.
+DT: Decide como implementar y como organizar la implementacion. Autorganizado.
+SM: Ayudar al equipo y a la empresa como trabaja SCRUM.
+
+**Ajustar todo a traves del tiempo**
+
++ Sprint Planning -> Se hace al principio. En que se va ha trabajar el sprint de 2 semanas.
+  El PO elije que tareas van primero. Y cada tarea se le da una complejidad de dificultad de realizacion.
+  Al finalizar tengo el Sprint Backlog.
++ Daily Scrum -> Que estan haciendo cada compañero. Como maximo de 15 min. Misma hora, mismo lugar.
+  Que hice ayer ?
+  Que voy ha hacer hoy ?
+  Que problemas tengo ? -> Se da una solucion y se completa.
++ Review -> Se hace al final del sprint. Se revisa si se cumplio el objetivo del sprint. Se si completo todos los tickets.
+  Puede incluirse una demo de lo que se implemento en este sprint.
+  Impacta en el backlog => creacion de mas tickes. Cuanto falta para terminar tal ticket.
++ Retrospective -> Analisis interno del equipo.
+  Que se hizo bien en este sprint ?
+  Que se hizo mal en este sprint ?
+  Sobre lo que se hizo mal conclusiones, vemos que hacemos para resolverlos.
+  
+**Mejora continua**
+
+Responsanbilidad y Que tenes que rendir cuentas -> Por ejemplo: Problemas de Git entre los que trabajan.
+
++ Como hacemos para que esto no suceda de vuelta.
+
+# Estimaciones y Metricas
+
+Como estimar una tarea ?
+Riesgo: No sabemos como se va ha implementar.
+
++ Haremos:
+  - Poker Planning. Cada uno hace le da una estimacion a una tarea de manera secreta/privada.
+  Luego se muestra a todos las estimacion que dio y se dice por que se le diero tal estimacion.
+  - Fibonacci estimation. Si una ticket es de riesgo digamos es un 3 => que en realidad es un 8.
+  
++ Visibilidad es clave, por ejemplo: si alguien no sabe como hacerlo debe decirlo !!!
+
+Backlog digamos es de 30 ptos (sumatoria de las estimacions de los tickets) ->
+  Cada dia deberia bajarse la cantidad de ptos que se dio a un ticket que se completo.
+  
+> La calidad de la metodologia agil depende enteramente de la organizacion del equipo
