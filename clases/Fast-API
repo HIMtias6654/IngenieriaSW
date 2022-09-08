@@ -63,6 +63,22 @@ Test reales con la BD
 El frontEnd genera la llamada(usando fetch->URL,objeto-de-configuracion: headers+tokens, en React averiguar useEffect) como espera Fast API(la URL que procesa) para esta interaccionar con la BD(en nuestro caso  PonyORM)
 
 Estandar Oficial: Swagger -> FastAPI me permite general el swagger de manera automatica como una documentacion Endpoint
-con sus respectivas descripciones como se mostraria usando POSTMAN
-
+con sus respectivas descripciones como se mostraria usando POSTMAN. No hace falta que tengas que editar swagger para modificar el documento FastApi provee
+funciones para esto. Levantas el servidor uvicorn -> Probamos la localhost:8000/URL-Fast-API\docs o URL-Fast-API\redocs me genera la documentacion
 Los warning de los Test -> es de desactualizacion de dependencias, no tiene que ver con el test en si.
+
+Tenes una BD para hacer testing en la ORM que no sera el de produccion
+Testing de integracion -> Vo le da la URL y queres que de tal resultado
+Otro cosa es el Unitesting parametro de entrada -> esperas una salida
+
+Hacer test de integracion de los endpoints
+Hacer unitesting de los metodos internos de las clases o de las funciones que haces de los metodos de python
+Testing del Front
+**NO VALE TESTING de TICKET NO SE HIZO => Desprobado la demo, osea en la demo hay que demostrar los test**
+React ya viene con una manera de hacer testing de los componentes
+
+> Dejo una serie de ejercicios en la filmina de FastAPI
+
+uvicorn y fastAPI son dos proyectos independientes.
+Una ves quieras desplegar tu proyecto en la nube no necesitas de uvicorn(es un servidor local para hacer pruebas de tu proyecto)
+uvicorn es en realidad una caja que levanta el proyecto para que FastApi crea que esta levantandose en un Navegador de ealgun dominio.
