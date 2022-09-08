@@ -1,1 +1,68 @@
 
+Framework de python
+Minimalista
+
+API: Interfaz para que interactue
+
+REST: Restriccines -> 
++ arquitectura Cliente-Servidor
++ Sin estado -> no lleva que ocurrio antes de una llamada
++ sistema construido por capar
+
+Metodos REST
+ Es mas bien como respetar lo siguiente:
+GET -> obtener un recurso del servidor
+POST -> Crear un recurso
+PATCH/PUT -> modificar un recurso que ya existe
+DELETE -> borra un recurso del servidor
+
+**Aca es donde pensamos en los endpoint**
+
+POST, PUTCH, PUT -> usado request body -> pydantic(parecido a las data clases de python, se puede agregar metodos si se quiere)
+Puedo definir aqui un JSON me lo empaqueta y serealiza
+
+Respondeme 201 o el numero que quieras pones status...
+
+Facilita la construccion de APis
+
+Trata de resolver el problema de tener un servidor con una API
+Mecanismos para facilitarme que tengo que ver
+Levantar un servidor que reciba pedidos
+Validar datos -> ejemplo matusculas en pass
+
++ Starlette -> Parte de la Web
++ Pydantic -> Para ver la validacion
+
+Las llamadas son asincronas
+
+URL -> Pedido HTTP -> Servidor
+
+Valida automaticamente entradas y salidas especificamos como validarlas
+
+"/" root de la pagina
+"url" donde quiero que se suba lo pedido HTTP creo
+
++ server -> uvicorn
+
+path parameter -> datos que le paso a la url
+
+curl. postmman -> permite hacer un request
+
+Tener el cuidado con el orden de lo path parameter
+
+Manejar errores -> Semantica de excepciones
+
+Es la parte de Modelo de la arquitectura Modelo-Vista-Controlador
+Se une con lo de PonyORM
+
+query parameter -> Optional es un sintax suggar puede ser int o puede ser None -> Puedo definir que error HTTP es , creo
+
+Podemos escribir casos de prueba con FastAPI
+Test reales con la BD
+
+El frontEnd genera la llamada(usando fetch->URL,objeto-de-configuracion: headers+tokens, en React averiguar useEffect) como espera Fast API(la URL que procesa) para esta interaccionar con la BD(en nuestro caso  PonyORM)
+
+Estandar Oficial: Swagger -> FastAPI me permite general el swagger de manera automatica como una documentacion Endpoint
+con sus respectivas descripciones como se mostraria usando POSTMAN
+
+Los warning de los Test -> es de desactualizacion de dependencias, no tiene que ver con el test en si.
