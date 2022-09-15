@@ -49,10 +49,44 @@ Modelos comunes(Se toman los 4 en el parcial)
 ventajas -> Es simple, divide las fases claramente
   desventaja -> se deja de hablar con el cliente luego del analisis de los requerimientos, se trato de solucionar con cascada con feedback aun que solo un nivel atras o se dice a cuanto retroceder
 3. Prototipado
-4. Iterativo
-5. Timeboxing
+  - Mini cascada -> y se sigue las fases siguientes
+  - mostrarle el usuario para la venta
+  - es descartado
+  - permite un buen feedback
+  - hace un test tonto
+  ventaja -> es mas estable, hay una experencia en la creacion
+  desventaja -> tiempo y costo
+5. Iterativo
+  SCRUM es un iterativo pero no el unico
+  uso los beneficios de cascda+prototipado
+  incremental
+  ayuda al testing
+  **la lista del control del proyecto** -> dice todas las cosas que debo hacer en el proyecto(mini cascada con un grupo de elementos) y esto se repita
+  + modelo en espiral -> 4 pasos -> primeros intentos hacia lo que es SCRUM
+  Aplicacion -> Es muy efectivo
+  Es muy customizable
+  Problema del todo o nada -> puede   que al producto lo ames o lo odies
+  + hay otros enfoques
+7. Timeboxing
+  La idea es planear tiempos fijos para hacer cada una de las cosas
+  priemero fija el tiempo
+  la especificacion que hara ese tiempo
+  Es un estilo de iterativo
+  desventaja -> equipos de trabajo suele ser muy grande. necesito mucha gente en cada etapa
+  Esas ejecuciones en paralelo es de cada proyecto distinto NO de un mismo proyecto -> Es lo mas normal
+  necesita mucha sincronizaciòn
 
 # Laura dice
+
+Saber si o si las tablas de comparaciones en las slides de los 4 Modelos Comunes
+
+pipline: a la larga todos los recursos esten siendo usados
+
+SCRUM -> No va al parcial
+
+La de IA ve que nos gusta
+
++ el costo del iterativo es costoso pero lo quieren pues el cliente puede intervenir con su opiniones
 
 + La semana del 20 y 22 de septiembre es consulta de TakeHome
 
