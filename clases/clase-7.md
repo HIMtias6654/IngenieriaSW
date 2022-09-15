@@ -35,9 +35,32 @@
 
 > El buen codigo es invisble
 
+# Modelo de Procesos
 
++ Proceso de desarrollo -> habla de esfuerzo
++ Especifican una idea de como deberian ser las etapas, de como va ha ser su proyecto en la realidad
++ modelo de proceso -> lo que hacemos en la materia
++ Especificaion del proceso -> Es el plan de lo que se hara
+
+Modelos comunes(Se toman los 4 en el parcial)
+1. Cascada -> Es una secuencia lineal de las fases que vimos, saber: la secunacia lineal , como son los pasos
+              cada fase comienza solo cuando la anterior termino
+              depende de 
+ventajas -> Es simple, divide las fases claramente
+  desventaja -> se deja de hablar con el cliente luego del analisis de los requerimientos, se trato de solucionar con cascada con feedback aun que solo un nivel atras o se dice a cuanto retroceder
+3. Prototipado
+4. Iterativo
+5. Timeboxing
 
 # Laura dice
+
+> El testing no es exhaustivo, se trata que lo sea lo maximo posible
+
+feasibility(viabilidad, factibilidad): lo que tengo planeado crear tiene o no coherencia
+
+Esfuerzo -> Costo, Tiempo -> Cada empresa tiene una medida de esfuerzo por ejemplo 1 medida de esfuerzo es necesito 3 personas que trabajan 8 hs en el dia
+
++ Libro: Habitos Atomicos
 
 + Lo importante es reveer lo que uno hizo
 
