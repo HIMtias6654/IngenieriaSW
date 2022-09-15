@@ -54,6 +54,8 @@ ventajas -> Es simple, divide las fases claramente
 
 # Laura dice
 
++ La semana del 20 y 22 de septiembre es consulta de TakeHome
+
 > El testing no es exhaustivo, se trata que lo sea lo maximo posible
 
 feasibility(viabilidad, factibilidad): lo que tengo planeado crear tiene o no coherencia
