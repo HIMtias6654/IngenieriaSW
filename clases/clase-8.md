@@ -73,14 +73,59 @@ Perder mas de 2 hs revisando es perdida por lo general en las empresas.
 
 Plantilla -> Review + Effort -> Eso es lo que mas se toma en cuenta para ver que tan trabajador es un empleado.
 
+Revision grupal -> Chequeamos que estamos haciendo, es un lugar solo para encontrarlos los defectos no para solucionarlos.
+-> las tablas de estas no se toman en el parcial
+Los defectos se evaluan:
+ critial
+ ...
+ 
+El moredador es quien critica mi trabajo.
+El moderador tambien trabaja de director.
+
+Pautas para la revision de los productos de trabajo.
+
+Aqui el oraculo es la SRS en muchas ocasiones. Es quien sabe la verdad.
+
+3. Procesos de administracion de la configuracion
+
+Nuestro proyecto no es solo codigo, y todos ellos pueden cambiar.
+
+Aqui se hace el control de todos estos elementos.
+Por ejemplo: Git
+
+Todas las versiones las estamos guardando. El poder cobrar hacer dos veces la misma cosa pues el cliente decidio volver para atras en alguna extension/version.
+No es trivial volver para atras.
+Uno vuelve a la baseline mas estable cuando quiere volver para atras.
+Existen muchisimas herramientas.
+
+4. Proceso de administracion de cambios de los requerimientos
+
+Cada cambio => tiempo y costo => EL analisis ayuda en la estimacion.
+Debe haber un registro de todos los cambios. Ver si lo hacemos efectivo o no.
+Los cambios acumulados tambien se registra.
+
+5. Procesos de Administracion de procesos
+
+Los administradores deberian tener un analisis de los procesos que estan llevando, a muy alto nivel.
+Se habla del documento.
+CMM, indica el nivel. Lo queremos tener para poder mostrarlo a quienes queremos que nos contrate.
+La auditoria es para revisar si cumple el nivel de CMM que indica la certificacion. 
+El proceso del git no es el documento donde esta el codigo.
+
 # Laura dice
 
 Es importante quien es el ownership de ese codigo por que uno debe ser responsable de ese codigo. Mientras mas chico el codigo mas claro quien es el ownership.
 
 Estudiar economia -> Las acciones estan en un rango estadistico(la bolsa). No tiene que ver con las cripto pues es volatil,
+
+Post-comitear revisar que todo ande.
+
+No va cosas de como se usa cosas como del git. No toma lo del check-out.
+
 # Glosario
 
 Ownership: Quien es el dueño del codigo, si muchos son los que escribieron el que dirigio a estos es el ownership
+baseline: son como momentos/lugares donde la cosa anda bien como coherente.
 
 # Presentarse en la competicion de programacion
 
