@@ -1,0 +1,81 @@
+3 sprint de 2 semanas cada uno
+
+1 sprint son 4 clases de laboratorio
+
+grupos de 6 o 7
+
+> Discutirlo con el grupo
+
++ Requerido:
+  - React: FrontEnd -> Manejador de estado: redux u otro
+  - PonyORM: BackEnd
+  - FastApi: BackEnd
+  
+ > Si o si el juego debe andar con multijugadores
+ 
+ + GitHub -> master(en las demos), develop(debe andar los test aqui), feacture(para cada ticket)
+ + Jira -> Del proceso, las feactures debe seguirse el formato de jira para que jira los puede entender 
+ 
+ + Crear history, NO HACER UNA TAREA
+ 
+ Una organizacion de github y una cuenta de jira
+ 
+ + dashboard
+ + si usamos kanvan -> board
+ 
+ + planing -> para ese martes de la demo que entregamos los profes diran que es lo minimo se entregue
+ descomponenmos en tickets de jira y con su puntuacion y eso el jueves los mostramos
+ 
+ standup -> 15 min todos los dias
+ cada grupo se crea un stream de zulip privado solo de nosotros cuando los profes se decida los agregamos
+ 
+ + demo
+   - features en DONE se tiene lo que se hizo y lo que no se llego hacer
+   
+ 2 roles por sprint(deben rotar)
+ ScrumMaster -> que se asegure que se esta haciendo el proceso, dirigue la daily
+ ProductOwner -> asegurarse que se va ha cumplir los sprint, si no lo tiene claro lo habla con los profes
+                  el dia antes del demo manda un msj por zulip eso se va ha mostrar y que no se llego a completar por lo tanto no se muestra
+                  
+ > Una buena planificacion nos quita estres
+ 
+ + La demo debe estar muy bien armada y guionada
+ 
+ + Esta es una App cliente-servidor
+ 
+ **muy claro los endpoints**
+ 
+ > **Si es test no esta el ticket no esta**
+ 
+ No hay codigo sin testing
+ 
+ DONE: codigo completo + revisiòn(una persona que no escribio ese codigo) + tests
+ 
+ + cada equipo una vez al frente a todos se muestra la demo. No van ha decir quienes.
+ 
+ + user history
+ 
+ + dar visibilidad de lo que se esta haciendo a los profes o que hay problemas **predecibilidad**
+ 
+ + SM debe tomar notas
+ 
+ + las demos son 3 y son los parciales de los laboratorios.
+ 
+ + Sprint 1, a todos estos Descomponer en tickets:
+  --- 
+  - registro de usuario
+  - login de usuario
+  ---
+  - crear bot (los bots por defecto nos olvidamos)
+  ---(de las partidas solo las listamos y nada mas)
+  - crear partida
+  - listar partidas
+  - ver tablero(si o si, en ruta /tablero se muestra el tablero)
+  - ver robot en el tablero(si o si, el robot puede ser un pto. negro)
+  - iniciar simulacion
+  ---parte funcional, va en el back, la logica implementada
+  - activar motor(con esto puedo mover y avanzar con el robot)
+  - mover robot
+  - avanzar de ronda(eso implicaria que se vea al robot moviendose al robot, solo eso)
+ 
+ 
