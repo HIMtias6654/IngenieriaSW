@@ -66,7 +66,7 @@ grupos de 6 o 7
   - registro de usuario
   - login de usuario
   ---
-  - crear bot (los bots por defecto nos olvidamos)
+  - crear bot (los bots por defecto nos olvidamos, sin validacion,en el archivo solo lo que decia el pdf)
   ---(de las partidas solo las listamos y nada mas)
   - crear partida
   - listar partidas
@@ -78,4 +78,9 @@ grupos de 6 o 7
   - mover robot
   - avanzar de ronda(eso implicaria que se vea al robot moviendose al robot, solo eso)
  
+ Organizacion de jira, github, descomposcion de el sprint 1 en los tickets puede ser en una hoja de papel, canal de zulip
+ si o si hoy los grupos
+ nombre del grupo
+ integrantes
  
+ martes 18 la demo
