@@ -98,6 +98,8 @@ punto funcion es una estimacion de esfuerzo
   planificacion global
   Existe una relacion entre esfuerzo y la cantidad de personas para realizar ese proyecto
   cual es la optima division para hacer las cosas -> por ejemplo: tantos meses como la raiz cuadrada de ...
+  + organizacion jerarquica -> los jefes son responsables de cosas y no siempre ganan mas que los programadores
+  + cuanto mas responsabilidad implica mas paga
 
 # Laura dice
 
