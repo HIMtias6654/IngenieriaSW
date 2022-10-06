@@ -55,7 +55,51 @@ el plan de test
 
 cuando voy a detenerme es importante
 
+# Especificacion de los casos de test
 
-+ # Laura dice
++ script -> te posicionas a donde queres llegar, es un programa que evalua tests
++ test son tuplad de entradas y salidas
+
+sw Cuanto mas grande mas defectos va ha tener
+se trata que se corrija el mismo programador que los creo por que lo haria mas rapido
+se gasta tiempo hasta que se vuelve de nuevo ha un estado estable
+hay muchos ciclos de vida
++ ciclo de vida de los defectos no siempre es lineal
++ hablamos de un failure(ingresado por quien lo encontro) luego hacer un debugging
++ cosmetico NO quiere deci que sea estetico, pues en un juego lo que se ve podria ser un error critico
++ llevar un traking(seguimiento) de los defectos
+
+---
+
+terminamos testing y la proxima clase es la ultima del teorico
+
+# planeamiento del proyecto de sw
+
+desboquen que un proyecto tarda/cuetan mas
+tiene 3 partes
+1. etapa de plananing, antes que el proyecto se ejecute
+2.
+3.
+
+Topicos hay 7
+punto funcion es una estimacion de esfuerzo
+1. planeamiento de proceso
+2. **yo no se cuanto va ha costar**
+ + se vuelve ha estimar todo el tiempo
+ + metodo COCOMO(modelo de costo constructivo) -> muy usado y lo vemos, es considera bueno
+ + COCOMO
+  - las empresas tunean a a y tunean a b
+  - para el parcial no es necesario saberse los numeros
+  - a cada uno de esos atributos le hago un analisis
+  - multiplico esos 15 atributos por la estimacion inial
+  - con el numero obtenido, existen 3 tablas, que dictaminan, el esfuerzo que me ha requerir cada una de las fases
+3.
+  planificacion detallada -> hecha por una herramienta, para pedir plata se usa esto -> una persona puede ser muy productiva durante 2 o 3 dias
+  planificacion global
+  Existe una relacion entre esfuerzo y la cantidad de personas para realizar ese proyecto
+  cual es la optima division para hacer las cosas -> por ejemplo: tantos meses como la raiz cuadrada de ...
+
+# Laura dice
+
 + **Diferencia entre fail y failure** siempre lo toma
 el la observacion de que hay un bug adentro
